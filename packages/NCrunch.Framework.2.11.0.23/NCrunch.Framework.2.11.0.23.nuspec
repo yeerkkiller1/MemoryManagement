@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>NCrunch.Framework</id>
+    <version>2.11.0.23</version>
+    <title>NCrunch.Framework</title>
+    <authors>Remco Software Ltd</authors>
+    <owners>Remco Software Ltd</owners>
+    <licenseUrl>http://www.ncrunch.net/legal/eula</licenseUrl>
+    <projectUrl>http://www.ncrunch.net/documentation/reference_runtime-framework_overview</projectUrl>
+    <iconUrl>http://www.ncrunch.net/favicon.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>NCrunch.Framework is a run-time library for NCrunch users.  This library contains attributes and tools that enable some very powerful features within NCrunch.</description>
+    <copyright>Copyright 2012</copyright>
+    <tags>NCrunch TDD UnitTest NUnit MSpec Xunit MSTest Continuous testing unit</tags>
+  </metadata>
+</package>
