@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using Extensions;
+using NUnit.Framework;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -32,9 +33,7 @@ namespace MemoryManagement
 
         public static void SetupForTests()
         {
-#if !NCRUNCH
-            throw new Exception();
-#endif
+            Ensure.IsInTest();
             threadDisposeInstance = null;
         }
 

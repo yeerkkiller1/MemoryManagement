@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using Extensions;
+using NUnit.Framework;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
