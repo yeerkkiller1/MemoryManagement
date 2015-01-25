@@ -62,6 +62,10 @@
       <Project>{7b5bd136-8d4f-4069-89ef-5c0e8597457a}</Project>
       <Name>Extensions</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Extensions\Interfaces\Interfaces\Interfaces.csproj">
+      <Project>{6d853b4c-db4f-4604-bd64-a43d8dca3195}</Project>
+      <Name>Interfaces</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

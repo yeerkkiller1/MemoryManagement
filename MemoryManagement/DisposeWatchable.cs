@@ -4,17 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Extensions;
+using GoodInterfaces.Memory;
 
 namespace MemoryManagement
 {
-    public interface IDisposeWatchable : IDisposable
-    {
-        int OnDispose(Action action);
-        void OffDispose(int id);
-        bool IsDisposed();
-
-    }
-
     public abstract class DisposeWatchable : IDisposeWatchable
     {
         private int watcherId = 0;
