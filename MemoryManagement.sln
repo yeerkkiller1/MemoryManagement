@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryManagement", "MemoryM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions", "Extensions\Extensions\Extensions.csproj", "{7B5BD136-8D4F-4069-89EF-5C0E8597457A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodInterfaces", "Extensions\Interfaces\GoodInterfaces\GoodInterfaces.csproj", "{6D853B4C-DB4F-4604-BD64-A43D8DCA3195}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Extensions\Interfaces\Interfaces\Interfaces.csproj", "{6D853B4C-DB4F-4604-BD64-A43D8DCA3195}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
