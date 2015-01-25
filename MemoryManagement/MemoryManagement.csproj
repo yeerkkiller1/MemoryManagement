@@ -58,7 +58,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Extensions\Extensions\Extensions.csproj">
+    <ProjectReference Include="..\..\Extensions\Extensions\Extensions.csproj">
       <Project>{7b5bd136-8d4f-4069-89ef-5c0e8597457a}</Project>
       <Name>Extensions</Name>
     </ProjectReference>
